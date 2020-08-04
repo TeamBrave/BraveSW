@@ -1,0 +1,46 @@
+Blocks:
+    '0': brown beansclay
+    '1': yellowclay
+    '2': redclay
+    '3': limewindowglass
+    '4': light redwindowglass
+    '5': tealwindowglass
+    '6': limewindowglass
+    '7': light redwindowglass
+    '8': tealwindowglass
+    '9': limewindowglass
+    '10': light redwindowglass
+    '11': tealwindowglass
+    '12': brown beansclay
+    '13': yellowclay
+    '14': redclay
+    '15': blue lazuliclay
+    '16': white mealclay
+    '17': goldclay
+    '18': goldwindowglass
+    '19': air
+    '20': purplewindowglass
+    '21': goldwindowglass
+    '22': air
+    '23': purplewindowglass
+    '24': goldwindowglass
+    '25': air
+    '26': purplewindowglass
+    '27': blue lazuliclay
+    '28': white mealclay
+    '29': goldclay
+    '30': limeclay
+    '31': light redclay
+    '32': aquaclay
+    '33': aquawindowglass
+    '34': blue lazuliwindowglass
+    '35': redwindowglass
+    '36': aquawindowglass
+    '37': blue lazuliwindowglass
+    '38': redwindowglass
+    '39': aquawindowglass
+    '40': blue lazuliwindowglass
+    '41': redwindowglass
+    '42': limeclay
+    '43': light redclay
+    '44': aquaclay
