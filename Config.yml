@@ -1,0 +1,997 @@
+General:
+    Prefix: '&6BraveSW &8» &7'
+    Party: '&6Party &8» &7'
+    Version: '1.0'
+
+Bungeecord:
+    Enabled: false
+    FallbackServer: Lobby
+
+MySQL:
+    Enabled: false
+    Host: localhost
+    Port: 3306
+    UserName: root
+    Password: password
+    DataBase: mysql
+    TableName: BraveSG_
+    UseSSL: false
+
+Party:
+    Menu:
+        Main: '&7Party'
+        Members: '&7Party Members'
+        PartyList: '&7Party List'
+        InvitedPlayers: '&7Invited Players'
+        Players: '&7Players'
+    Join:
+        Name: '&7Join Party'
+        Item: custom player head
+        Id: 4b853c0b-d0cd-48fc-bc27-3ff98931ce2b
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjYyMjE3ZDkwMmVkYzkyOWRlNGY1MWI5MDcxZjU2YmFhYWMwNDVkMDRlYzA0Yjg0MGNjYzhlYzk5NjJmNjJlMyJ9fX0=
+        Slot: 20
+        Lore:
+        - ''
+        - '&8➩ &aClick to join in a party.'
+    Create:
+        Name: '&7Create Party'
+        Item: custom player head
+        Id: 67303f01-b659-4ce5-8706-b623a16c1db2
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2Y3Y2RlZWZjNmQzN2ZlY2FiNjc2YzU4NGJmNjIwODMyYWFhYzg1Mzc1ZTlmY2JmZjI3MzcyNDkyZDY5ZiJ9fX0=
+        Slot: 24
+        Lore:
+        - ''
+        - '&8➩ &aClick to create a party.'
+    Invite:
+        Name: '&7Invite Player'
+        Item: custom player head
+        Id: a18f6c08-2311-4f8c-a69c-2563148a74f3
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjA1NmJjMTI0NGZjZmY5OTM0NGYxMmFiYTQyYWMyM2ZlZTZlZjZlMzM1MWQyN2QyNzNjMTU3MjUzMWYifX19
+        Slot: 20
+        Lore:
+        - ''
+        - '&8➩ &aClick here to invite a player.'
+    InvitePlayer:
+        Name: '&7{player}'
+        Lore:
+        - ''
+        - '&8➩ &aClick to invite this player.'
+    RemoveInvite:
+        Name: '&7{player}'
+        Lore:
+        - ''
+        - '&8➩ &cClick to remove this invite.'
+    InvitedPlayers:
+        Name: '&7Invited Players'
+        Item: diamond
+        Slot: 48
+        Lore:
+        - ''
+        - '&8➩ &aClick to view the invited players.'
+    Leave:
+        Name: '&7Leave/Disband'
+        Item: iron door
+        Slot: 53
+        Lore:
+        - ''
+        - '&8➩ &aClick leave the party.'
+    Members:
+        Name: '&7Party Members'
+        Item: custom player head
+        Id: 4b853c0b-d0cd-48fc-bc27-3ff98931ce2b
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjYyMjE3ZDkwMmVkYzkyOWRlNGY1MWI5MDcxZjU2YmFhYWMwNDVkMDRlYzA0Yjg0MGNjYzhlYzk5NjJmNjJlMyJ9fX0=
+        Slot: 31
+        Lore:
+        - ''
+        - '&8➩ &aClick to view the party members.'
+    PlayerFormat:
+        Name: '&7{player}'
+        Item: player head
+        Lore:
+        - ''
+        - '&8➩ &aClick to kick this player from party.'
+    PartyListFormat:
+        Name: '&7{player}'
+        Item: player head
+        Lore:
+        - ''
+        - '&8➩ &aClick to join this party.'
+    PlayerFormatAsLeader:
+        Name: '&7{player}'
+        Item: player head
+        Lore:
+        - ''
+        - '&8➩ &aClick to disaband to the party.'
+    Leader:
+        Name: '&7Leader: &e&n{player}'
+        Item: player head
+        Slot: 4
+        Lore:
+        - ''
+    Status:
+        Public:
+            Name: '&8❒ &7Status: &aPublic'
+            Item: light green dye
+            Slot: 24
+            Lore:
+            - ''
+            - '&8➩ &7Anyone can join.'
+            - '&8➩ &aClick to change the status to &cPrivate&a.'
+        Private:
+            Name: '&8❒ &7Status: &ePrivate'
+            Item: gray dye
+            Slot: 24
+            Lore:
+            - ''
+            - '&8➩ &7Only invited players can join.'
+            - '&8➩ &aClick to change the status to &bPublic.'
+
+Server:
+    List:
+    - '&5&lBadlion Network &4is now closed.'
+    - '&2Support &e&lBadlion Client &2at &b&nclient.badlion.net&4&l <3'
+
+Chat:
+    Lobby: '&7[&a{Coins}&7] {Prefix}{Player} &8» &7{message}'
+    Solo:
+        InGame: '&7[&a{GameKills}&7] {Prefix}&f{Player} &8» &7{message}'
+        Waiting: '&7[&a{Coins}&7] {Prefix}&f{Player} &8» &7{message}'
+        Spectator: '&b[Spectator] {Prefix}&f{Player} &8» &7{message}'
+    Team:
+        InGame: '&7[&a{GameKills}&7] {Prefix}{Team}{Player} &8» &7{message}'
+        Waiting: '&7[&a{Coins}&7] {Prefix}{Team}{Player} &8» &7{message}'
+        Spectator: '&b[Spectator] {Prefix}{Team}{Player} &8» &7{message}'
+    Party:
+        Format: '&6Party &8» {Prefix}&f{Player} &8» &7{message}'
+        Symbol: '@'
+
+Items:
+    NextPage:
+        Name: '&8&l» &7Next Page'
+        Item: custom player head
+        Id: d513d666-0992-42c7-9aa6-e518a83e0b38
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTliZjMyOTJlMTI2YTEwNWI1NGViYTcxM2FhMWIxNTJkNTQxYTFkODkzODgyOWM1NjM2NGQxNzhlZDIyYmYifX19
+        Lore:
+        - ''
+    PreviousPage:
+        Name: '&8&l« &7Previous Page'
+        Item: custom player head
+        Id: 2391d533-ab09-434d-9980-adafde4057a3
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmQ2OWUwNmU1ZGFkZmQ4NGU1ZjNkMWMyMTA2M2YyNTUzYjJmYTk0NWVlMWQ0ZDcxNTJmZGM1NDI1YmMxMmE5In19fQ==
+        Lore:
+        - ''
+    Back:
+        Name: '&8&l» &7Back'
+        Item: custom player head
+        Id: 5ca62fac-d094-4346-8361-e1dfdd970607
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzQzNzM0NmQ4YmRhNzhkNTI1ZDE5ZjU0MGE5NWU0ZTc5ZGFlZGE3OTVjYmM1YTEzMjU2MjM2MzEyY2YifX19
+        Lore:
+        - ''
+    Accept:
+        Name: '&8➥ &a&nAccept'
+        Item: custom player head
+        Id: 81e9cb25-3fc3-4b41-8fa6-536bf143d560
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDMxMmNhNDYzMmRlZjVmZmFmMmViMGQ5ZDdjYzdiNTVhNTBjNGUzOTIwZDkwMzcyYWFiMTQwNzgxZjVkZmJjNCJ9fX0=
+        Slot: 1
+        Lore:
+        - ''
+    Deny:
+        Name: '&8➥ &c&nCancel'
+        Item: custom player head
+        Id: 5ecfabf0-5253-47b0-a44d-9a0c924081b9
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+        Slot: 3
+        Lore:
+        - ''
+    PlayerVisiblityOFF:
+        Name: '&5&lPlayer Visiblity - &cOFF'
+        Item: graydye
+        Slot: 8
+        Lore:
+        - ''
+    PlayerVisiblityON:
+        Name: '&5&lPlayer Visiblity - &aON'
+        Item: light green dye
+        Slot: 8
+        Lore:
+        - ''
+    JoinArenas:
+        Name: '&8&l「&ePlay SkyWars&8&l」'
+        Item: chest
+        Slot: 0
+        Lore:
+        - ''
+    Profile:
+        Name: '&8&l「&eProfile&8&l」'
+        Item: custom player head
+        Id: 167f6ca4-7ee1-4990-b5c8-27a25eb65de6
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY1YjQwOTQxN2ZmMmU3NzdkNWU4M2NlY2QyODU2ZDJjY2M2OGRmZmRlZjk0MDE1NGU5NDVhY2U2ZDljY2MifX19
+        Slot: 7
+        Lore:
+        - ''
+    ArenaLeave:
+        Name: '&8&l「&eLeave&8&l」'
+        Item: magma cream
+        Slot: 8
+        Lore:
+        - ''
+    Vote:
+        Name: '&8&l「&eVote&8&l」'
+        Item: chest
+        Slot: 0
+        Lore:
+        - ''
+    Teleporter:
+        Name: '&8&l「&ePlay teleporter&8&l」'
+        Item: compass
+        Slot: 0
+        Lore:
+        - ''
+    SpectatorSettings:
+        Name: '&8&l「&eSpectator Settings&8&l」'
+        Item: redstone comparator item
+        Slot: 4
+        Lore:
+        - ''
+    Bounty:
+        Name: '&8&l「&eBounty&8&l」'
+        Item: eye of ender
+        Slot: 6
+        Lore:
+        - ''
+    Sponsor:
+        Name: '&8&l「&eSponsor Player&8&l」'
+        Item: gold ingot
+        Slot: 7
+        Lore:
+        - ''
+    Shop:
+        Name: '&8&l「&eShop&8&l」'
+        Item: anvil
+        Slot: 6
+        Lore:
+        - ''
+    Party:
+        Name: '&8&l「&eParty&8&l」'
+        Item: crafting table
+        Slot: 5
+        Lore:
+        - ''
+    LobbyLeave:
+        Name: '&8&l「&eLeave the lobby&8&l」'
+        Item: magma cream
+        Slot: 8
+        Lore:
+        - ''
+    ArenaSettings:
+        Name: '&8&l「&eArena Settings&8&l」'
+        Item: beacon
+        Slot: 8
+        Lore:
+        - ''
+    AddSpawnPoint:
+        Name: '&8&l「&aAdd SpawnPoint&8&l」'
+        Item: green clay
+        Slot: 0
+        Lore:
+        - ''
+    RemoveSpawnPoint:
+        Name: '&8&l「&cRemove SpawnPoint&8&l」'
+        Item: red clay
+        Slot: 1
+        Lore:
+        - ''
+    ChestTool:
+        Name: '&8&l「&eChest Tool&8&l」'
+        Item: blaze rod
+        Slot: 2
+        Lore:
+        - ''
+    BorderTool:
+        Name: '&8&l「&eBorder Tool&8&l」'
+        Item: stick
+        Slot: 3
+        Lore:
+        - ''
+    TeamSelector:
+        Name: '&8&l「&eTeam Selector&8&l」'
+        Item: chest
+        Slot: 7
+        Lore:
+
+Menus:
+    SetupArena:
+        MinimumPlayers:
+            Name: '&7Click to set minimum players &8&l[{Check}&8&l]'
+            Item: custom player head
+            Id: 034a0e9e-8745-4fc6-8639-84abc48e9f72
+            Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkyZTMxZmZiNTljOTBhYjA4ZmM5ZGMxZmUyNjgwMjAzNWEzYTQ3YzQyZmVlNjM0MjNiY2RiNDI2MmVjYjliNiJ9fX0=
+            Slot: 10
+            Lore:
+            - ''
+        MaximumPlayers:
+            Name: '&7Click to set maximum players &8&l[{Check}&8&l]'
+            Item: custom player head
+            Id: 034a0e9e-8745-4fc6-8639-84abc48e9f72
+            Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkyZTMxZmZiNTljOTBhYjA4ZmM5ZGMxZmUyNjgwMjAzNWEzYTQ3YzQyZmVlNjM0MjNiY2RiNDI2MmVjYjliNiJ9fX0=
+            Slot: 12
+            Lore:
+            - ''
+        Type:
+            Name: '&7Set type &8&l[{Check}&8&l]'
+            Item: custom player head
+            Id: 034a0e9e-8745-4fc6-8639-84abc48e9f72
+            Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkyZTMxZmZiNTljOTBhYjA4ZmM5ZGMxZmUyNjgwMjAzNWEzYTQ3YzQyZmVlNjM0MjNiY2RiNDI2MmVjYjliNiJ9fX0=
+            Slot: 22
+            Lore:
+            - ''
+        SaveArena:
+            Name: '&eClick to save arena'
+            Item: enderchest
+            Slot: 35
+            Lore:
+            - ''
+        DeleteArena:
+            Name: '&7Click to delete arena &8&l(&c&l!&8&l)'
+            Item: custom player head
+            Id: 5ecfabf0-5253-47b0-a44d-9a0c924081b9
+            Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+            Slot: 27
+            Lore:
+            - ''
+        Center:
+            Name: '&7Click to set arena center &8&l[{Check}&8&l]'
+            Item: custom player head
+            Id: 034a0e9e-8745-4fc6-8639-84abc48e9f72
+            Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkyZTMxZmZiNTljOTBhYjA4ZmM5ZGMxZmUyNjgwMjAzNWEzYTQ3YzQyZmVlNjM0MjNiY2RiNDI2MmVjYjliNiJ9fX0=
+            Slot: 14
+            Lore:
+            - ''
+        MaxBuildHeight:
+            Name: '&7Click to set arena max build height &8&l[{Check}&8&l]'
+            Item: custom player head
+            Id: 034a0e9e-8745-4fc6-8639-84abc48e9f72
+            Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkyZTMxZmZiNTljOTBhYjA4ZmM5ZGMxZmUyNjgwMjAzNWEzYTQ3YzQyZmVlNjM0MjNiY2RiNDI2MmVjYjliNiJ9fX0=
+            Slot: 16
+            Lore:
+            - ''
+        Tools:
+            Name: '&7Tools'
+            Item: stick
+            Slot: 22
+            Lore:
+            - ''
+        DeleteMap:
+            Name: '&7Click to delete map &8&l(&c&l!&8&l)'
+            Item: custom player head
+            Id: 5ecfabf0-5253-47b0-a44d-9a0c924081b9
+            Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmViNTg4YjIxYTZmOThhZDFmZjRlMDg1YzU1MmRjYjA1MGVmYzljYWI0MjdmNDYwNDhmMThmYzgwMzQ3NWY3In19fQ==
+            Slot: 45
+            Lore:
+            - ''
+
+Titles:
+    Lobby:
+        Title: ''
+        Subtitle: '&fWelcome to &eBraveSW'
+        Duration: 40
+        FadeIn: 20
+        FadeOut: 20
+    Win:
+        Title: '{Player} WON!'
+        Subtitle: ''
+        Duration: 20
+        FadeIn: 20
+        FadeOut: 20
+    Starting:
+        Title: '&6&l{Seconds}'
+        Subtitle: ''
+        Duration: 60
+        FadeIn: 10
+        FadeOut: 10
+    Start:
+        Title: ''
+        Subtitle: '&c&lGame Started!'
+        Duration: 60
+        FadeIn: 10
+        FadeOut: 10
+    ChestRefill:
+        Title: ''
+        Subtitle: '&eChests have been refilled&7.'
+        Duration: 60
+        FadeIn: 0
+        FadeOut: 0
+    Death:
+        Title: '&6&lYou dead...'
+        Subtitle: '&fYou are spectator.'
+        Duration: 40
+        FadeIn: 20
+        FadeOut: 20
+
+Sounds:
+    Kill:
+        Sound: SUCCESSFUL_HIT
+        Volume: 1
+        Pitch: 5
+    KillOld:
+        Sound: ORB_PICKUP
+        Volume: 1
+        Pitch: 1
+    JoinArena:
+        Sound: LEVEL_UP
+        Volume: 1
+        Pitch: 1
+    ArenaStarting:
+        Sound: CLICK
+        Volume: 1
+        Pitch: 5
+    StartGame:
+        Sound: NOTE_PLING
+        Volume: 1
+        Pitch: 5
+    NotEnoughtPlayer:
+        Sound: ANVIL_BREAK
+        Volume: 1
+        Pitch: 1
+    HoloStats:
+        Sound: NOTE_STICKS
+        Volume: 5
+        Pitch: 5
+    ChestRefill:
+        Sound: CHEST_OPEN
+        Volume: 5
+        Pitch: 5
+    OpenMenu:
+        Sound: CHEST_OPEN
+        Volume: 5
+        Pitch: 5
+
+Timers:
+    Starting: 30
+    WaitingFull: 5
+    InGame: 480
+    Restarting: 25
+
+Chests:
+    Default:
+        Name: '&b&lTier 1'
+        MinItems: 6
+        MaxItems: 8
+        Items:
+        - 1 cobweb
+        - 32 cobble_stone
+        - 32 normalwood plank
+        - 1 iron helmet
+        - 1 iron chestplate
+        - 1 iron leggings
+        - 1 iron boots
+        - 1 iron boots of feather falling
+        - 1 diamond helmet
+        - 1 diamond chestplate
+        - 1 diamond leggings
+        - 1 diamond boots
+        - 1 chainmail helmet
+        - 1 chainmail chestplate
+        - 1 chainmail leggings
+        - 1 chainmail boots
+        - 1 TNT
+        - 1 ender pearl
+        - 1 fire charge
+        - 6 bottle_o'_enchanting
+        - 6 arrow
+        - 1 diamond axe
+        - 1 iron axe
+        - 1 diamond axe of efficiency 1
+        - 1 bow
+        - 1 diamond pickaxe
+        - 1 extended splash Health potion item
+        - 1 splash Speed potion item
+        - 1 splash Fire Resistance potion II item
+        - 1 enchantment table
+        - 1 fishing rod
+        - 1 lava bucket
+        - 1 water bucket
+        - 1 diamond sword
+        - 16 cobble_stone
+        - 16 normalwood plank
+        - 6 egg
+        - 6 snowball
+        - 1 stone sword
+        - 1 flint and steel
+        - 1 iron sword
+        - 1 zombie spawn egg
+        - 1 skeleton spawn egg
+        - 2 steak
+        - 1 pumpkin pie
+        - 2 cooked rabbit
+        - 2 bread
+    Tier-2:
+        Name: '&b&lTier 2'
+        MinItems: 6
+        MaxItems: 8
+        Items:
+        - 64 cobble_stone
+        - 64 normalwood plank
+        - 1 diamond helmet of protection 1
+        - 1 diamond chestplate of protection 1
+        - 1 diamond leggings of protection 1
+        - 1 diamond boots of protection 1
+        - 1 TNT
+        - 1 ender pearl
+        - 1 fire charge
+        - 16 bottle_o'_enchanting
+        - 16 arrow
+        - 1 bow
+        - 1 diamond pickaxe of efficiency 1
+        - 1 diamond axe of efficiency 3
+        - 1 extended splash Health potion item
+        - 1 splash Speed potion item
+        - 1 splash Fire Resistance potion II item
+        - 1 enchantment table
+        - 1 fishing rod
+        - 1 lava bucket
+        - 1 water bucket
+        - 1 diamond sword of sharpness 1
+        - 16 egg
+        - 16 snowball
+        - 1 flint and steel
+        - 1 zombie spawn egg
+        - 1 skeleton spawn egg
+        - 3 steak
+        - 2 pumpkin pie
+        - 3 cooked rabbit
+        - 3 bread
+
+Spectator:
+    Menu: '&7Player Teleporter'
+    PlayerFormat:
+        Name: '&f{Player}'
+        Lore:
+        - ''
+        - '&eClick to watch.'
+
+Vote:
+    Menu: '&7Vote for Chest Mode'
+    Format:
+        Name: '&a&l{Mode}'
+        Lore:
+        - ''
+        - '&e {Mode} &7items come out of the chests.'
+        - ''
+        - '&7 Votes: &a{Votes}'
+
+Bounty:
+    Menu: '&7Bounty'
+    PlayerFormat:
+        Name: '&f{Player}'
+        Lore:
+        - ''
+        - '&eClick to put a bounty on this player.'
+
+ConfirmLeave:
+    Enabled: true
+    Menu: '&7Confirm Leave'
+
+Sponsor:
+    Menu: '&7Sponsor Player'
+    PlayerFormat:
+        Name: '&f{Player}'
+        Lore:
+        - ''
+        - '&eClick to sponsor this player.'
+    Items:
+        Fishing Rod:
+            Name: '&6Fishing rod'
+            Item: fishing rod
+            Slot: 10
+            Lore:
+            - ''
+            - '&7Cost: &a200 Coin'
+            Cost: 200
+        Bow:
+            Name: '&6Bow'
+            Item: bow
+            Slot: 11
+            Lore:
+            - ''
+            - '&7Cost: &a100 Coin'
+            Cost: 100
+        Arrow:
+            Name: '&6Arrow &8(&7x5&8)'
+            Item: 5 arrow
+            Slot: 12
+            Lore:
+            - ''
+            - '&7Cost: &a50 Coin'
+            Cost: 50
+        Ender Pearl:
+            Name: '&6Ender Pearl'
+            Item: ender pearl
+            Slot: 13
+            Lore:
+            - ''
+            - '&7Cost: &a500 Coin'
+            Cost: 500
+
+SpectatorSettings:
+    Menu: '&7Spectator Settings'
+    Speed:
+        '0':
+            Name: '&eNo Speed'
+            Item: leather boots
+            Slot: 11
+            Lore:
+            - ''
+        '1':
+            Name: '&eSpeed I'
+            Item: chain boots
+            Slot: 12
+            Lore:
+            - ''
+        '2':
+            Name: '&eSpeed II'
+            Item: iron boots
+            Slot: 13
+            Lore:
+            - ''
+        '3':
+            Name: '&eSpeed III'
+            Item: gold boots
+            Slot: 14
+            Lore:
+            - ''
+        '4':
+            Name: '&eSpeed IV'
+            Item: diamond boots
+            Slot: 15
+            Lore:
+            - ''
+    NightVision:
+        'On':
+            Name: '&aEnable Night Vision'
+            Item: eye of ender
+            Slot: 22
+            Lore:
+            - ''
+            - '&eClick to enable night vision!'
+        'Off':
+            Name: '&cDisable Night Vision'
+            Item: ender pearl
+            Slot: 22
+            Lore:
+            - ''
+            - '&eClick to disable night vision!'
+
+Signs:
+    Arenas:
+        Line:
+            '1': '&8[&6SKYWARS&8]'
+            '2': '&e{status}'
+            '3': '&b{arena}'
+            '4': '&8({playing}/{max})'
+        AutoJoin: '&c&lPlay'
+    Top:
+        Line:
+            '1': '&7&l➜ &a&lTOP'
+            '2': '&7« &b#{TOP} &7»'
+            '3': '&e{Player}'
+            '4': '&aScore: &3{value}'
+            
+Leaderboards:
+    Type: STANDS #STAND and SKULLS
+    SmallArmourStand: true
+    EmptyPlaceReplace: Loading...
+
+ArrowDamage:
+    Enabled: true
+    Bar: '&a{Player}: {Bar}'
+
+Achievement:
+    Enabled: true
+    Menu: '&7Achievements'
+    SubMenu: '&7Achievement &f» &8{Menu}'
+    MissionCompleted: '&a Mission completed.'
+    MissionCompletedItem: emerald
+    MissionNotCompleted: '&c Mission not completed.'
+    MissionNotCompletedItem: coalitem
+    LevelCompleted: '&a Level completed!'
+    LevelNotCompleted: '&c Level not completed!'
+    LevelLore: '&aCOMPLETED! &7(&a{Required}&7)'
+    ComplatedTiered5: emerald block
+    ComplatedTieredOther: emerald
+    NotComplatedTiered5: coal block
+    NotComplatedTieredOther: coalitem
+    Progress: '&a{Progress}&7/&a{Required}'
+    NextPageName: '&aNext'
+    NextPageLore: '||&eSonraki sayfa için tıklayın.'
+    PreviousPageName: '&aPrevious'
+    PreviousPageLore: '&eClick to return to the first page.'
+
+Shop:
+    Enabled: true
+    Menu: '&7Shop'
+    SubMenu: '&7Shop &f» &8{Menu}'
+    Purchased: limewindowglass
+    NotPurchased: redwindowglass
+    Selected: '&a Selected.'
+    Select: '&e Click to choose.'
+    Purchase: '&e Click to buy.'
+    PurchaseMSG: '&6Shop &8» &7Successfully purchased &a{Name} &7. &8(&7Price: &e{Price}&8)'
+    NoMoney: '&6Shop &8» &cYou don''t have enough money.'
+    NextPageName: '&aNext'
+    NextPageLore: '||&eClick for the next page.'
+    PreviousPageName: '&aBack'
+    PreviousPageLore: '&eClick to return to the first page.'
+    BackName: '&aBack'
+    BackLore: '&eClick to go back to Shop.'
+
+Profile:
+    Menu:
+        Title: '&7Profile'
+        Background: black glass pane
+    MonthlyStats:
+        Name: '&eMonthly &7(&6{Mounth}&7)'
+        Item: paper
+        Slot: 29
+        Lore:
+        - ''
+        - '&7Wins: &e{Wins}'
+        - '&7Kills: &e{Kills}'
+        - '&7Deaths: &e{Deaths}'
+        - '&7Coins: &e{Coins}'
+        - '&7Looted Chests: &e{Chests}'
+        - '&7Opened Drops: &e{Drops}'
+        - '&7Playing Game: &e{Games}'
+        - ''
+    Stats:
+        Name: '&eLifeTime'
+        Item: paper
+        Slot: 33
+        Lore:
+        - ''
+        - '&7Wins: &e{Wins}'
+        - '&7Kills: &e{Kills}'
+        - '&7Deaths: &e{Deaths}'
+        - '&7Coins: &e{Coins}'
+        - '&7Looted Chests: &e{Chests}'
+        - '&7Opened Drops: &e{Drops}'
+        - '&7Playing Game: &e{Games}'
+        - ''
+    Skull:
+        Name: '&8&l➩ &7{Player}'
+        Slot: 4
+        Lore:
+        - ''
+    Achievement:
+        Name: '&eAchievement'
+        Item: nether star
+        Slot: 40
+        Lore:
+        - ''
+
+Player:
+    Menu: '&7{Player}'
+    Background: black glass pane
+    ViewStats:
+        Name: '&7View Stats'
+        Slot: 22
+        Lore:
+        - ''
+        - '&eClick to view the stats'
+
+HoloStats:
+    Enabled: true
+    Listing: '&e&l{Rank}. &6{Name} &7-&e {Value}'
+    Line:
+        '1': '&b&lLifetime {Section}'
+        '2': '&7All Modes'
+        '3': ''
+        '14': ''
+        '15': '&6&lClick to toggle!'
+
+ArenaGUI:
+    Arenas: '&f&l{Arena}'
+    QuickJoin:
+        Name: '&eQuick Join'
+        Item: custom player head
+        Id: d54c8e17-7da2-4255-b3af-4ca87f404a51
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM0NjdhNTMxOTc4ZDBiOGZkMjRmNTYyODVjNzI3MzRkODRmNWVjODhlMGI0N2M0OTMyMzM2Mjk3OWIzMjNhZiJ9fX0=
+        Lore:
+        - ''
+    Main:
+        Menu: '&7All Arenas'
+        Name: '&eAll Arenas'
+        Item: custom player head
+        Id: d54c8e17-7da2-4255-b3af-4ca87f404a51
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM0NjdhNTMxOTc4ZDBiOGZkMjRmNTYyODVjNzI3MzRkODRmNWVjODhlMGI0N2M0OTMyMzM2Mjk3OWIzMjNhZiJ9fX0=
+        Lore:
+        - ''
+    Available:
+        Menu: '&7Available Arenas'
+        Name: '&eAvailable Arenas'
+        Item: custom player head
+        Id: d54c8e17-7da2-4255-b3af-4ca87f404a51
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM0NjdhNTMxOTc4ZDBiOGZkMjRmNTYyODVjNzI3MzRkODRmNWVjODhlMGI0N2M0OTMyMzM2Mjk3OWIzMjNhZiJ9fX0=
+        Lore:
+        - ''
+    InGame:
+        Menu: '&7InGame Arenas'
+        Name: '&eInGame Arenas'
+        Item: custom player head
+        Id: d54c8e17-7da2-4255-b3af-4ca87f404a51
+        Value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDM0NjdhNTMxOTc4ZDBiOGZkMjRmNTYyODVjNzI3MzRkODRmNWVjODhlMGI0N2M0OTMyMzM2Mjk3OWIzMjNhZiJ9fX0=
+        Lore:
+        - ''
+    Status:
+        InGame:
+        - '&cInGame'
+        - ''
+        - '&7Players &8:: &b{Players}'
+        - '&7Spectators &8:: &b{Spectators}'
+        - '&7Map &8:: &b{Map}'
+        - '&7Mode &8:: &b{Mode}'
+        - ''
+        - '&a>&2>> &fClick to spectate!'
+        PreGame:
+        - '&5PreGame'
+        - ''
+        - '&7Players &8:: &b{Players}'
+        - '&7Spectators &8:: &b{Spectators}'
+        - '&7Map &8:: &b{Map}'
+        - '&7Mode &8:: &b{Mode}'
+        - ''
+        - '&a>&2>> &fClick to join!'
+        Waiting:
+        - '&aWaiting'
+        - ''
+        - '&7Players &8:: &b{Players}'
+        - '&7Map &8:: &b{Status}'
+        - '&7Mode &8:: &b{Mode}'
+        - ''
+        - '&a>&2>> &fClick to join!'
+
+Rewards:
+    BountyPerKill: 10
+    CoinsPerKill: 5
+    CoinsPerWin: 20
+    XPPerWin: 100
+    XPPerKill: 10
+    Percentage-System:
+        Enabled: true
+        Minimum:
+            Enabled: true
+            Rewards: 5
+        AllowNegativeBalance: true
+
+Ranks:
+    '1':
+        Name: 'Silver I'
+        XP: 0
+    '2':
+        Name: 'Silver II'
+        XP: 1000
+    '3':
+        Name: 'Silver III'
+        XP: 2000
+    '4':
+        Name: 'Silver IV'
+        XP: 3000
+    '5':
+        Name: 'Silver V'
+        XP: 4000
+    '6':
+        Name: 'Gold I'
+        XP: 8000
+    '7':
+        Name: 'Gold II'
+        XP: 10000
+    '8':
+        Name: 'Gold III'
+        XP: 12000
+    '9':
+        Name: 'Gold IV'
+        XP: 14000
+    '10':
+        Name: 'Gold V'
+        XP: 16000
+    '11':
+        Name: 'Diamond I'
+        XP: 24000
+    '12':
+        Name: 'Diamond II'
+        XP: 28000
+    '13':
+        Name: 'Diamond III'
+        XP: 32000
+    '14':
+        Name: 'Diamond IV'
+        XP: 36000
+    '15':
+        Name: 'Diamond V'
+        XP: 40000
+    '16':
+        Name: 'Emerald I'
+        XP: 56000
+    '17':
+        Name: 'Emerald II'
+        XP: 64000
+    '18':
+        Name: 'Emerald III'
+        XP: 72000
+    '19':
+        Name: 'Emerald IV'
+        XP: 80000
+    '20':
+        Name: 'Emerald V'
+        XP: 88000
+    '21':
+        Name: 'Master'
+        XP: 100000
+
+Teams:
+    Black:
+        Color: '&0B &f'
+        Name: 'Black'
+    Green:
+        Color: '&aG &f'
+        Name: 'Green'
+    Aqua:
+        Color: '&bA &f'
+        Name: 'Aqua'
+    Red:
+        Color: '&cR &f'
+        Name: 'Red'
+    Pink:
+        Color: '&dP &f'
+        Name: 'Pink'
+    Yellow:
+        Color: '&eY &f'
+        Name: 'Yellow'
+    White:
+        Color: '&fW &f'
+        Name: 'White'
+    Cyan:
+        Color: '&3C &f'
+        Name: 'Cyan'
+    Purple:
+        Color: '&5P &f'
+        Name: 'Purple'
+    Gold:
+        Color: '&6G &f'
+        Name: 'Gold'
+    Gray:
+        Color: '&7G &f'
+        Name: 'Gray'
+    Blue:
+        Color: '&9B &f'
+        Name: 'Blue'
+
+TeamSelector:
+    Menu: '&8» &7TEAM SELECTOR'
+    Background: light green glass
+    Format: '&3&l» &7{team} &7TEAM &8(&e{team-size}&7/&e{max-team-size}&8)'
+    PlayerFormat: '&e» &3{player}'
+    EmptySlot: '&8» &8[EMPTY SLOT]'
+    Join: '&c&l» &7Click to join in this team.'
+
+DeathChest:
+    Enabled: false
+
+BookStats:
+    Enabled: true
+    Lore:
+    - '&3{Player}:'
+    - '&7(SKY WARS)'
+    - ''
+    - '&c{Kills} &0kişi öldürdü.'
+    - '&c{Deaths} &0kez öldü.'
+    - '&c{Coins} &0puan kazandı.'
+    - '&c{Wins} &0oyun kazandı.'
+    - ''
+    - '&0Aylık &0&l{Players} &0kişi'
+    - '&0içinde &c{Ranking}. &0sırada.'
+
+Misc:
+    DeathmatchRadius: 50
+    PerArenaTablist: true
+    MaxPartySize: 28

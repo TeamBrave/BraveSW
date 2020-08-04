@@ -1,0 +1,1726 @@
+Shop:
+    Win Effects:
+        Item: firework_rocket
+        Name: '&6Win Effects'
+        Slot: 11
+        Lore:
+        - ''
+        - '&7 Get the attention of your opponents'
+        - '&7 with special winning effects'
+        - '&7 and add color and fun to the game!'
+        - ''
+        - '&7 Unlock: {Unlock}/{Max} &8(&7%{Percent}&8)'
+        - ''
+        - '&e Click to browse!'
+        - ''
+        Contents:
+            '1':
+                Name: 'Special Fireworks'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '2':
+                Name: 'Fire Rain'
+                Price: 80000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '3':
+                Name: 'Flying Heads'
+                Price: 50000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '4':
+                Name: 'Guards'
+                Price: 50000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '5':
+                Name: 'Anvil Rain'
+                Price: 50000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '6':
+                Name: 'Wither Mount'
+                Price: 150000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '7':
+                Name: 'Coffin Dance'
+                Price: 200000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '8':
+                Name: 'Dab!'
+                Price: 200000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '9':
+                Name: 'Twerk'
+                Price: 300000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '10':
+                Name: 'Dragon Mount'
+                Price: 300000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+    Login Messages:
+        Item: sign
+        Name: '&6Login Messages'
+        Slot: 12
+        Lore:
+        - ''
+        - '&7 Get the attention of players'
+        - '&7 using the login message.'
+        - ''
+        - '&7 Unlock: {Unlock}/{Max} &8(&7%{Percent}&8)'
+        - ''
+        - '&e Click to browse!'
+        - ''
+        Contents:
+            '1':
+                Name: 'I''m hungry!'
+                Price: 8000
+                Quality: 'Rare'
+                Message: '&b{Player} &7yine aç kaldı!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &b{Player} &7yine aç kaldı!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '2':
+                Name: 'Yay ve oku çekmek!'
+                Price: 12000
+                Quality: 'Rare'
+                Message: '&b{Player} &7yay ve okunu çekti!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &b{Player} &7yay ve okunu çekti!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '3':
+                Name: 'Evet, ben geldim!'
+                Price: 15000
+                Quality: 'Rare'
+                Message: '&b{Player} &7bu maçı kazanmak için burada!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &b{Player} &7bu maçı kazanmak için burada!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '4':
+                Name: 'Öldürmeye geliyor!'
+                Price: 20000
+                Quality: 'Epic'
+                Message: '&b{Player} &7dırırındındırırırındın yaparak geliyor!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &b{Player} &7dırırındındırırırındın yaparak geliyor!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '5':
+                Name: 'Ölüm maçı!'
+                Price: 20000
+                Quality: 'Epic'
+                Message: '&b{Player} &7için ölüm şimşeği çakıyor!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &b{Player} &7için ölüm şimşeği çakıyor!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '6':
+                Name: 'Komuta elde!'
+                Price: 20000
+                Quality: 'Epic'
+                Message: '&7Hahaha! Komuta artık &b{Player} &7oyuncusunun elinde!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &7Hahaha! Komuta artık &b{Player} &7oyuncusunun elinde!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '7':
+                Name: 'Jack Sparrow!'
+                Price: 25000
+                Quality: 'Epic'
+                Message: '&b{Player} &7diyor ki: Sen beni duymuş muydun, ben Jack Sparrow!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &b{Player} &7diyor ki: Sen beni duymuş muydun, ben Jack Sparrow!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '8':
+                Name: 'Altınları almaya geliyor!'
+                Price: 25000
+                Quality: 'Epic'
+                Message: '&b{Player} &7diyor ki: Elindeki bütün altınları alacağım!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &b{Player} &7diyor ki: Elindeki bütün altınları alacağım!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '9':
+                Name: 'Geminin kaptanı!'
+                Price: 25000
+                Quality: 'Epic'
+                Message: '&b{Player} &7diyor ki: Bu geminin kaptanı benim!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &b{Player} &7diyor ki: Bu geminin kaptanı benim!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '10':
+                Name: 'Kaptan diyeceksin!'
+                Price: 25000
+                Quality: 'Epic'
+                Message: '&b{Player} &7diyor ki: Bana KAPTAN diye hitap edeceksin!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &b{Player} &7diyor ki: Bana KAPTAN diye hitap edeceksin!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '11':
+                Name: 'Siz bittiniz!'
+                Price: 25000
+                Quality: 'Epic'
+                Message: '&b{Player} &7tüm sandıkların yerini biliyor!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &b{Player} &7tüm sandıkların yerini biliyor!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '12':
+                Name: 'Neredesin be şans?'
+                Price: 30000
+                Quality: 'Legendary'
+                Message: '&b{Player} &7için biraz şans lazım!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &b{Player} &7için biraz şans lazım!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '13':
+                Name: 'Sadece olta yeter!'
+                Price: 35000
+                Quality: 'Legendary'
+                Message: '&b{Player} &7oltasını aldı ve geldi!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &b{Player} &7oltasını aldı ve geldi!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '14':
+                Name: 'Öldürmeye geldim!'
+                Price: 60000
+                Quality: 'Legendary'
+                Message: '&b{Player} &7hepinizi öldürmeye geliyor!'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&7 - &b{Player} &7hepinizi öldürmeye geliyor!'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+    Win Musics:
+        Item: gold_music disc
+        Name: '&6Win Musics'
+        Slot: 13
+        Lore:
+        - ''
+        - '&7 Attract competitors attention'
+        - '&7 with special winning music,'
+        - '&7 add color and fun to the game!'
+        - ''
+        - '&7 Unlock: {Unlock}/{Max} &8(&7%{Percent}&8)'
+        - ''
+        - '&e Click to browse!'
+        Contents:
+            '1':
+                Name: 'Tetris'
+                Price: 7000
+                Quality: 'Common'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '2':
+                Name: 'Ben 10'
+                Price: 7000
+                Quality: 'Common'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '3':
+                Name: 'Mehter - Tuna Nehri'
+                Price: 7000
+                Quality: 'Common'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '4':
+                Name: 'İllüminati'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '5':
+                Name: 'The Fox'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '6':
+                Name: 'Red Bone'
+                Price: 15000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '7':
+                Name: 'Mortal Kombat'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '8':
+                Name: 'Barbie Girl'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '9':
+                Name: 'Wake Me Up'
+                Price: 15000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '10':
+                Name: 'Smells Like Teen Spirit'
+                Price: 15000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '11':
+                Name: 'Nyan Cat'
+                Price: 15000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '12':
+                Name: 'Gangnam Style'
+                Price: 25000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '13':
+                Name: 'Marshmello - Alone'
+                Price: 25000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '14':
+                Name: 'Thriller'
+                Price: 20000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '15':
+                Name: 'Moves Like Jagger'
+                Price: 25000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '16':
+                Name: 'TNT'
+                Price: 20000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '17':
+                Name: 'Astronomia'
+                Price: 25000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '18':
+                Name: 'Scooby Doo'
+                Price: 30000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '19':
+                Name: 'Get Ready For This'
+                Price: 40000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '20':
+                Name: 'Mozart - Türk Marşı'
+                Price: 80000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '21':
+                Name: 'He''s A Pirate'
+                Price: 80000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '22':
+                Name: 'We Are Number One'
+                Price: 30000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '23':
+                Name: 'Battle Scars - Guy Sebastian'
+                Price: 80000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+    Shooting Effects:
+        Item: bow
+        Name: '&6Shooting Effects'
+        Slot: 14
+        Lore:
+        - ''
+        - '&7 Get the attention of your opponents'
+        - '&7 with these colorful shooting effects,'
+        - '&7 add color and action to the game!'
+        - ''
+        - '&7 Unlock: {Unlock}/{Max} &8(&7%{Percent}&8)'
+        - ''
+        - '&e Click to browse!'
+        Contents:
+            '1':
+                Name: 'Cadı Büyüsü'
+                Price: 5000
+                Quality: 'Common'
+                Effect: 'blockdust'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '2':
+                Name: 'Beyaz Duman'
+                Price: 5000
+                Quality: 'Common'
+                Effect: 'Alev'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '3':
+                Name: 'Siyah Duman'
+                Price: 5000
+                Quality: 'Common'
+                Effect: 'townaura'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '4':
+                Name: 'Lav Parçacıkları'
+                Price: 7000
+                Quality: 'Rare'
+                Effect: 'explosionlarge'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '5':
+                Name: 'Mutlu'
+                Price: 10000
+                Quality: 'Rare'
+                Effect: 'happyvillager'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '6':
+                Name: 'Turuncu Toz'
+                Price: 10000
+                Quality: 'Rare'
+                Effect: 'crit'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '7':
+                Name: 'Kıvılcım'
+                Price: 7000
+                Quality: 'Rare'
+                Effect: 'Alev'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '8':
+                Name: 'Mavi Toz'
+                Price: 10000
+                Quality: 'Rare'
+                Effect: 'critmagic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '9':
+                Name: 'Yeşil Toz'
+                Price: 10000
+                Quality: 'Rare'
+                Effect: 'happyvillager'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '10':
+                Name: 'Kızgın'
+                Price: 10000
+                Quality: 'Rare'
+                Effect: 'angryvillager'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '11':
+                Name: 'Mor Toz'
+                Price: 10000
+                Quality: 'Rare'
+                Effect: 'Alev'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '12':
+                Name: 'Su Parçacıkları'
+                Price: 7000
+                Quality: 'Rare'
+                Effect: 'waterdrop'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '13':
+                Name: 'Balçık'
+                Price: 10000
+                Quality: 'Rare'
+                Effect: 'slime'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '14':
+                Name: 'Notalar'
+                Price: 15000
+                Quality: 'Epic'
+                Effect: 'note'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '15':
+                Name: 'Ateş'
+                Price: 15000
+                Quality: 'Epic'
+                Effect: 'flame'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '16':
+                Name: 'Sihir'
+                Price: 15000
+                Quality: 'Epic'
+                Effect: 'Alev'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '17':
+                Name: 'Kan'
+                Price: 20000
+                Quality: 'Legendary'
+                Effect: 'Alev'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '18':
+                Name: 'Kalp'
+                Price: 20000
+                Quality: 'Legendary'
+                Effect: 'Alev'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+    Final Words:
+        Item: paper
+        Name: '&6Final Words'
+        Slot: 15
+        Lore:
+        - ''
+        - '&7 Make the game fun !'
+        - '&7 with the last word message'
+        - '&7 you choose after you die!'
+        - ''
+        - '&7 Unlock: {Unlock}/{Max} &8(&7%{Percent}&8)'
+        - ''
+        - '&e Click to browse!'
+        Contents:
+            '1':
+                Name: 'Hilesiz'
+                Price: 10000
+                Quality: 'Common'
+                Lore:
+                - ''
+                - '&6 Sözler:'
+                - '&e - &7"Ne olursan ol yine gel (Hile Değilsen)"'
+                - '&e - &7"Kapat gel onu bekliyom"'
+                - '&e - &7"Efbiay opın dı dor"'
+                - '&e - &7"Ya şu hileyi kaldırın artık"'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Words:
+                - 'Ne olursan ol yine gel (Hile Değilsen)'
+                - 'Kapat gel onu bekliyom'
+                - 'Efbiay opın dı dor'
+                - 'Ya şu hileyi kaldırın artık'
+            '2':
+                Name: 'Gereksiz'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&6 Sözler:'
+                - '&e - &7"Bu oyunun adı minecraft"'
+                - '&e - &7"Sanırım öldüm"'
+                - '&e - &7"Bilgi şu an bu yazıyı okuyorsun"'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Words:
+                - 'Bu oyunun adı minecraft'
+                - 'Sanırım öldüm'
+                - 'Bilgi şu an bu yazıyı okuyorsun'
+            '3':
+                Name: 'Korsan'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&6 Sözler:'
+                - '&e - &7"Bir Korsan filminin daha sonuna geldik..."'
+                - '&e - &7"Ahh, hani ölümsüzdüm!"'
+                - '&e - &7"Gemimi alabilirsin ama canımı asla!"'
+                - '&e - &7"Geminin kaptanı artık sensin!"'
+                - '&e - &7"Seninle tekrar görüşeceğiz!"'
+                - '&e - &7"Bu okyanusta artık yeni kaptan sensin!"'
+                - '&e - &7"Benim kadar iyi asla olamayacaksın!"'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Words:
+                - 'Bir Korsan filminin daha sonuna geldik...'
+                - 'Ahh, hani ölümsüzdüm!'
+                - 'Gemimi alabilirsin ama canımı asla!'
+                - 'Geminin kaptanı artık sensin!'
+                - 'Seninle tekrar görüşeceğiz!'
+                - 'Bu okyanusta artık yeni kaptan sensin!'
+                - 'Benim kadar iyi asla olamayacaksın!'
+            '4':
+                Name: 'Sarhoş'
+                Price: 15000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&6 Sözler:'
+                - '&e - &7"MoruQ yapma moruQ"'
+                - '&e - &7"Aman aman nereye geldik bi anda"'
+                - '&e - &7"Daha demin evdeydim moruQ"'
+                - '&e - &7"Abi sana deniz anası taklidi yapayım mı"'
+                - '&e - &7"Kafama sıkar giderim"'
+                - '&e - &7"Ama kafamız nasıl güzeel"'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Words:
+                - 'MoruQ yapma moruQ'
+                - 'Aman aman nereye geldik bi anda'
+                - 'Daha demin evdeydim moruQ'
+                - 'Abi sana deniz anası taklidi yapayım mı'
+                - 'Kafama sıkar giderim'
+                - 'Ama kafamız nasıl güzeel'
+            '5':
+                Name: 'Iskankar'
+                Price: 15000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&6 Sözler:'
+                - '&e - &7"Ölürsem kabrime gelme istemem"'
+                - '&e - &7"Ölüm dediğin nedir gülüm"'
+                - '&e - &7"Selamün aleyküm adım azrail"'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Words:
+                - 'Ölürsem kabrime gelme istemem'
+                - 'Ölüm dediğin nedir gülüm'
+                - 'Selamün aleyküm adım azrail'
+            '6':
+                Name: 'Noob'
+                Price: 20000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&6 Sözler:'
+                - '&e - &7"Hile hile kesin hile"'
+                - '&e - &7"Abi o nasıl vuruş ya"'
+                - '&e - &7"Öyle bir vuruş yok yalnız"'
+                - '&e - &7"Ping var yoksa alırdım"'
+                - '&e - &7"Anca arkadan gel arkacı seni"'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Words:
+                - 'Hile hile kesin hile'
+                - 'Abi o nasıl vuruş ya'
+                - 'Öyle bir vuruş yok yalnız'
+                - 'Ping var yoksa alırdım'
+                - 'Anca arkadan gel arkacı seni'
+            '7':
+                Name: 'Cesur'
+                Price: 30000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&6 Sözler:'
+                - '&e - &7"Bu hayatta unutulan değil iz bırakan ol"'
+                - '&e - &7"Yaptıklarım için pişman değilim ha"'
+                - '&e - &7"Aklım hala yapmadıklarımda"'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Words:
+                - 'Bu hayatta unutulan değil iz bırakan ol'
+                - 'Yaptıklarım için pişman değilim ha'
+                - 'Aklım hala yapmadıklarımda'
+            '8':
+                Name: 'Cem Yılmaz Klasikleri'
+                Price: 35000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&6 Sözler:'
+                - '&e - &7"Uzaylılar diyorum, evet tarafından"'
+                - '&e - &7"Ateş su toprak tahta"'
+                - '&e - &7"Öldü lan işte ödül"'
+                - '&e - &7"Komutan Logar, bir cisim yaklaşıyor!"'
+                - '&e - &7"Adam sigaradan gitti usta!"'
+                - '&e - &7"Ulan bu ok zehirli işte, bunu atmayın ya!"'
+                - '&e - &7"Fazla dikkat çekiyorsun, yapma!"'
+                - '&e - &7"Bak deminden şimdiye geldim."'
+                - '&e - &7"Uzaylı da olsa, insan insandır."'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Words:
+                - 'Uzaylılar diyorum, evet tarafından'
+                - 'Ateş su toprak tahta'
+                - 'Öldü lan işte ödül'
+                - 'Komutan Logar, bir cisim yaklaşıyor!'
+                - 'Adam sigaradan gitti usta!'
+                - 'Ulan bu ok zehirli işte, bunu atmayın ya!'
+                - 'Fazla dikkat çekiyorsun, yapma!'
+                - 'Bak deminden şimdiye geldim.'
+                - 'Uzaylı da olsa, insan insandır.'
+            '9':
+                Name: 'Aşık'
+                Price: 35000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&6 Sözler:'
+                - '&e - &7"Herkes öldürür sevdiğini"'
+                - '&e - &7"Ne yaşattırırsan onu yaşarsın unutma güzelim"'
+                - '&e - &7"Oysa ki senin için Dünyayı yakardım"'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Words:
+                - 'Herkes öldürür sevdiğini'
+                - 'Ne yaşattırırsan onu yaşarsın unutma güzelim'
+                - 'Oysa ki senin için Dünyayı yakardım'
+            '10':
+                Name: 'Havalı'
+                Price: 50000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&6 Sözler:'
+                - '&e - &7"Ben kaybetmeyi değil ölmeyi seçtim"'
+                - '&e - &7"Biz kaybedenlerden değil hükmedenlerdeniz"'
+                - '&e - &7"Bir sonraki karşılaşmamızda ensende olacağım"'
+                - '&e - &7"Gün doğarken tepelerin ardından sana ölüm doğacak"'
+                - '&e - &7"Hayatımı sana adıyorum ölmen için"'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Words:
+                - 'Ben kaybetmeyi değil ölmeyi seçtim'
+                - 'Biz kaybedenlerden değil hükmedenlerdeniz'
+                - 'Bir sonraki karşılaşmamızda ensende olacağım'
+                - 'Gün doğarken tepelerin ardından sana ölüm doğacak'
+                - 'Hayatımı sana adıyorum ölmen için'
+    Killing Effects:
+        Item: nether star
+        Name: '&6Killing Effects'
+        Slot: 21
+        Lore:
+        - ''
+        - '&7 Get the attention of your opponents'
+        - '&7 with these killing effects,'
+        - '&7 add color and action to the game!'
+        - ''
+        - '&7 Unlock: {Unlock}/{Max} &8(&7%{Percent}&8)'
+        - ''
+        - '&e Click to browse!'
+        Contents:
+            '1':
+                Name: 'Kalpler'
+                Price: 10000
+                Quality: 'Common'
+                Effect: HEART
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '2':
+                Name: 'Kan'
+                Price: 10000
+                Quality: 'Common'
+                Effect: CLOUD
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '3':
+                Name: 'Fişek'
+                Price: 10000
+                Quality: 'Common'
+                Effect: FIREWORKS_SPARK
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '4':
+                Name: 'Yıldırım'
+                Price: 15000
+                Quality: 'Rare'
+                Effect: CLOUD
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '5':
+                Name: 'Müzik'
+                Price: 15000
+                Quality: 'Rare'
+                Effect: NOTE
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '6':
+                Name: 'Yarasalar'
+                Price: 20000
+                Quality: 'Epic'
+                Effect: CLOUD
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '7':
+                Name: 'Kurabiyeler'
+                Price: 20000
+                Quality: 'Epic'
+                Effect: CRIT
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '8':
+                Name: 'Rekt'
+                Price: 30000
+                Quality: 'Epic'
+                Effect: WATER_WAKE
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '9':
+                Name: 'Ahtapot'
+                Price: 30000
+                Quality: 'Epic'
+                Effect: WATER_SPLASH
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '10':
+                Name: 'Renk Bombası'
+                Price: 30000
+                Quality: 'Epic'
+                Effect: CLOUD
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '11':
+                Name: 'Kılıç'
+                Price: 50000
+                Quality: 'Legendary'
+                Effect: CLOUD
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '12':
+                Name: 'Kafa Roketi'
+                Price: 50000
+                Quality: 'Legendary'
+                Effect: CLOUD
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+    Death Sounds:
+        Item: noteblock
+        Name: '&6Death Sounds'
+        Slot: 22
+        Lore:
+        - ''
+        - '&7 Get the attention of your opponents'
+        - '&7 with special dying sounds,'
+        - '&7 add color and action to the game!'
+        - ''
+        - '&7 Unlock: {Unlock}/{Max} &8(&7%{Percent}&8)'
+        - ''
+        - '&e Click to browse!'
+        Contents:
+            '1':
+                Name: 'Kurt ölme'
+                Price: 2000
+                Quality: 'Common'
+                Sound: WOLF_DEATH
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '2':
+                Name: 'Domuz ölme'
+                Price: 2000
+                Quality: 'Common'
+                Sound: PIG_DEATH
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '3':
+                Name: 'İnek hasar alma'
+                Price: 2000
+                Quality: 'Common'
+                Sound: COW_HURT
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '4':
+                Name: 'Kedi miyav'
+                Price: 5000
+                Quality: 'Rare'
+                Sound: CAT_MEOW
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '5':
+                Name: 'Zombi ölme'
+                Price: 5000
+                Quality: 'Rare'
+                Sound: ZOMBIE_DEATH
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '6':
+                Name: 'Eşek ölme'
+                Price: 10000
+                Quality: 'Epic'
+                Sound: DONKEY_DEATH
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '7':
+                Name: 'Blaze ölme'
+                Price: 15000
+                Quality: 'Epic'
+                Sound: BLAZE_DEATH
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '8':
+                Name: 'Golem ölme'
+                Price: 10000
+                Quality: 'Epic'
+                Sound: IRONGOLEM_DEATH
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '9':
+                Name: 'Gardiyan'
+                Price: 10000
+                Quality: 'Epic'
+                Sound: ANVIL_LAND
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '10':
+                Name: 'Dinozor'
+                Price: 100000
+                Quality: 'Legendary'
+                Sound: ANVIL_LAND
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '11':
+                Name: 'Homurdanma'
+                Price: 100000
+                Quality: 'Legendary'
+                Sound: ANVIL_LAND
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '12':
+                Name: 'Örs düşme'
+                Price: 100000
+                Quality: 'Legendary'
+                Sound: ANVIL_LAND
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '13':
+                Name: 'Kudurma'
+                Price: 100000
+                Quality: 'Legendary'
+                Sound: ANVIL_LAND
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '14':
+                Name: 'Wither hasar alma'
+                Price: 100000
+                Quality: 'Legendary'
+                Sound: WITHER_DEATH
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '15':
+                Name: 'Ghast çığlık'
+                Price: 100000
+                Quality: 'Legendary'
+                Sound: GHAST_SCREAM
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '16':
+                Name: 'Ghast ölme'
+                Price: 100000
+                Quality: 'Legendary'
+                Sound: GHAST_DEATH
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+    Mounts:
+        Item: saddle
+        Name: '&6Mounts'
+        Slot: 23
+        Lore:
+        - ''
+        - '&7 Add fun to the game'
+        - '&7 using the starter mounts!'
+        - ''
+        - '&7 Unlock: {Unlock}/{Max} &8(&7%{Percent}&8)'
+        - ''
+        - '&e Click to browse!'
+        Contents:
+            '1':
+                Name: 'Mantar ineği'
+                Price: 5000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '2':
+                Name: 'İnek'
+                Price: 5000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '3':
+                Name: 'Tavuk'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '4':
+                Name: 'Domuz'
+                Price: 5000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '5':
+                Name: 'Koyun'
+                Price: 5000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '6':
+                Name: 'Kedi'
+                Price: 8000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '7':
+                Name: 'Creeper'
+                Price: 50000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '8':
+                Name: 'Iskelet'
+                Price: 50000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '9':
+                Name: 'Örümcek'
+                Price: 10000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '10':
+                Name: 'Cadı'
+                Price: 90000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '11':
+                Name: 'Blaze'
+                Price: 60000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '12':
+                Name: 'Zombi'
+                Price: 50000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '13':
+                Name: 'Domuz zombi'
+                Price: 90000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '14':
+                Name: 'Kardan adam'
+                Price: 60000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '15':
+                Name: 'Demir golem'
+                Price: 100000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+    Killing Messages:
+        Item: redstone
+        Name: '&6Killing Messages'
+        Slot: 31
+        Lore:
+        - ''
+        - '&7 Get players attention'
+        - '&7 using a killing message!'
+        - ''
+        - '&7 Unlock: {Unlock}/{Max} &8(&7%{Percent}&8)'
+        - ''
+        - '&e Click to browse!'
+        - ''
+        Contents:
+            '1':
+                Name: 'Ateş'
+                Price: 5000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&e - &7BraveSG, {Player} tarafından toz haline getirildi.'
+                - '&e - &7BraveSG, {Player} tarafından havaya uçuruldu.'
+                - '&e - &7BraveSG, {Player} tarafından kül haline getirildi.'
+                - '&e - &7BraveSG, {Player} tarafından eritilerek öldürüldü.'
+                - '&e - &7BraveSG, {Player} tarafından yakıldı.'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Messages:
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından toz haline getirildi.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından havaya uçuruldu.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından kül haline getirildi.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından eritilerek öldürüldü.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından yakıldı.'
+            '2':
+                Name: 'Boşluk'
+                Price: 8000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&e - &7BraveSG, {Player} tarafından fırlatıldı.'
+                - '&e - &7BraveSG, {Player} tarafından sonsuzluğa atıldı.'
+                - '&e - &7BraveSG, {Player} tarafından çukura atıldı.'
+                - '&e - &7BraveSG, {Player} tarafından hiçliğe atıldı.'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Messages:
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından fırlatıldı.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından sonsuzluğa atıldı.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından çukura atıldı.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından hiçliğe atıldı.'
+            '3':
+                Name: 'Acımasız'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&e - &7BraveSG, {Player} tarafından muz tabancasıyla vuruldu.'
+                - '&e - &7BraveSG, {Player} tarafından soyuldu.'
+                - '&e - &7BraveSG, {Player} tarafından lapa haline getirildi.'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Messages:
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından muz tabancasıyla vuruldu.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından soyuldu.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından lapa haline getirildi.'
+            '4':
+                Name: 'Galaksi'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&e - &7BraveSG, {Player} tarafından uzaya fırlatıldı.'
+                - '&e - &7{Player}, BraveSG yüzünden bir asteroite çarptı.'
+                - '&e - &7BraveSG, {Player} tarafından yörüngeye gönderildi.'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Messages:
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından uzaya fırlatıldı.'
+                - '&e[{PlayerKills}] &a{Player}&7, &e[{AttackerKills}] &c{Attacker} &7yüzünden bir asteroite çarptı.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından yörüngeye gönderildi.'
+            '5':
+                Name: 'Sıkışmak'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&e - &7BraveSG, {Player} tarafından imha edildi.'
+                - '&e - &7BraveSG, {Player} tarafından sıkıştırıldı.'
+                - '&e - &7BraveSG, {Player} tarafından sakinleştirildi.'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Messages:
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından imha edildi.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından sıkıştırıldı.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından sakinleştirildi.'
+            '6':
+                Name: 'Efendi'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&e - &7{Player}, BraveSG oyuncusunun dizine vurdu.'
+                - '&e - &7BraveSG, şövalye {Player} tarafından ezildi.'
+                - '&e - &7BraveSG, mancınıkla {Player} tarafından fırlatıldı.'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Messages:
+                - '&e[{PlayerKills}] &a{Player}&7, &e[{AttackerKills}] &c{Attacker} &7oyuncusunun dizine vurdu.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, şövalye &e[{PlayerKills}] &a{Player} &7tarafından ezildi.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, mancınıkla &e[{PlayerKills}] &a{Player} &7tarafından fırlatıldı.'
+            '7':
+                Name: 'Saldırı'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&e - &7BraveSG, {Player} tarafından vuruldu.'
+                - '&e - &7BraveSG oyuncusuna, {Player} tarafından omuz atıldı.'
+                - '&e - &7BraveSG, {Player} tarafından maçın dışına fırlatıldı.'
+                - '&e - &7{Player}, BraveSG oyuncusunun kalbini kırdı.'
+                - '&e - &7BraveSG, {Player} tarafından patates edildi.'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Messages:
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından vuruldu.'
+                - '&e[{PlayerKills}] &a{Player} &7oyuncusuna &e[{AttackerKills}] &c{Attacker} &7tarafından omuz atıldı.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından maçın dışına fırlatıldı.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7oyuncusunun kalbini kırdı.'
+                - '&e[{PlayerKills}] &a{Player}&7, &e[{AttackerKills}] &c{Attacker} &7tarafından patates edildi.'
+            '8':
+                Name: 'Bilgisayar'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&e - &7BraveSG oyuncusuna, {Player} tarafından ALT+F4 çekildi.'
+                - '&e - &7BraveSG oyuncusu, {Player} tarafından çökertildi.'
+                - '&e - &7BraveSG, {Player} tarafından silindi.'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Messages:
+                - '&e[{AttackerKills}] &c{Attacker}&7 oyuncusuna, &e[{PlayerKills}] &a{Player} &7tarafından ALT+F4 çekildi.'
+                - '&e[{AttackerKills}] &c{Attacker}&7 oyuncusu, &e[{PlayerKills}] &a{Player} &7tarafından çökertildi.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından silindi.'
+            '9':
+                Name: 'Hatıra'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&e - &7BraveSG, {Player} tarafından şaşırtıldı.'
+                - '&e - &7BraveSG, {Player} tarafından rekt yedi.'
+                - '&e - &7BraveSG, {Player} yüzünden üzüldü.'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Messages:
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından şaşırtıldı.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından rekt yedi.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7yüzünden üzüldü.'
+            '10':
+                Name: 'Intikam'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&e - &7BraveSG, {Player} tarafından vahşice vuruldu.'
+                - '&e - &7BraveSG, {Player} tarafından hançerlendi.'
+                - '&e - &7BraveSG, {Player} tarafından uçuruma itildi.'
+                - '&e - &7BraveSG, {Player} tarafından pimi çekildi.'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+                Messages:
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından vahşice vuruldu.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından hançerlendi.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından uçuruma itildi.'
+                - '&e[{AttackerKills}] &c{Attacker}&7, &e[{PlayerKills}] &a{Player} &7tarafından pimi çekildi.'
+    Cage:
+        Item: mob_spawner
+        Name: '&6Cage'
+        Slot: 39
+        Lore:
+        - ''
+        - '&7 Buy fun cages to draw attention'
+        - '&7 to your opponents and show them'
+        - '&7 that you are not weak against them!'
+        - ''
+        - '&7 Unlock: {Unlock}/{Max} &8(&7%{Percent}&8)'
+        - ''
+        - '&e Click to browse!'
+        - ''
+        Contents:
+            '1':
+                Name: 'Diamond'
+                Price: 8000
+                Quality: 'Common'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '2':
+                Name: 'Book'
+                Price: 10000
+                Quality: 'Rare'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '3':
+                Name: 'End'
+                Price: 15000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '4':
+                Name: 'Mossy'
+                Price: 15000
+                Quality: 'Epic'
+                Item: 133
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '5':
+                Name: 'Portal'
+                Price: 15000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '6':
+                Name: 'Quartz'
+                Price: 15000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '7':
+                Name: 'Sand'
+                Price: 15000
+                Quality: 'Epic'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+            '8':
+                Name: 'Rainbow'
+                Price: 20000
+                Quality: 'Legendary'
+                Lore:
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'
+    Kits:
+        Item: iron sword
+        Name: '&6Kits'
+        Slot: 41
+        Lore:
+        - ''
+        - '&7 Add extra power to your power and'
+        - '&7 force other opponents using the kit!'
+        - '&7 kits change the flow of the game.'
+        - ''
+        - '&7 Unlock: {Unlock}/{Max} &8(&7%{Percent}&8)'
+        - ''
+        - '&e Click to browse!'
+        - ''
+        Contents:
+            '1':
+                Name: 'Warrior'
+                Price: 10000
+                Quality: 'Rare'
+                Items:
+                - 1 diamond sword
+                Lore:
+                - ''
+                - '&6 Preview:'
+                - '&e - &7x1 Diamond Sword.'
+                - ''
+                - '&7 Price: &6{Price}'
+                - ''
+                - '&7 Quality: &b{Quality}'

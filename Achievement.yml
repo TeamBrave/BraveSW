@@ -1,0 +1,389 @@
+Achievements:
+    Challenge:
+        Item: diamond
+        Name: '&aChallenge Achievements'
+        Slot: 20
+        Lore:
+        - ''
+        - '&7 Challenge achievements may'
+        - '&7 be completed a single time.'
+        - ''
+        - '&7 Unlocked: {Unlock}/{Max} &8(&7%{Percent}&8)'
+        - ''
+        - '&e Click to view achievements!'
+        - ''
+        Contents:
+            '1':
+                Name: 'Strong'
+                Reward: 50
+                Lore:
+                - ''
+                - '&7 Craft a diamond sword.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '2':
+                Name: 'Hades'
+                Reward: 100
+                Lore:
+                - ''
+                - '&7 Burn a place with fire.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '3':
+                Name: 'Unstoppable'
+                Reward: 500
+                Lore:
+                - ''
+                - '&7 Kill 5 tributes in 15 seconds.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '4':
+                Name: 'Captain'
+                Reward: 100
+                Lore:
+                - ''
+                - '&7 Use a boat.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '5':
+                Name: 'Professional'
+                Reward: 800
+                Lore:
+                - ''
+                - '&7 Kill 10 tributes in one game.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '6':
+                Name: 'Farmer'
+                Reward: 800
+                Lore:
+                - ''
+                - '&7 Craft diamond hoe.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '7':
+                Name: 'No Chests'
+                Reward: 1000
+                Lore:
+                - ''
+                - '&7 Win a game without opening a chest.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '8':
+                Name: 'AFK'
+                Reward: 500
+                Lore:
+                - ''
+                - '&7 Win the game without killing someone.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '9':
+                Name: 'Chef'
+                Reward: 200
+                Lore:
+                - ''
+                - '&7 Craft a golden apple.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '10':
+                Name: 'Full Support'
+                Reward: 100
+                Lore:
+                - ''
+                - '&7 Sponsor 3 different players in one game.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '11':
+                Name: 'Strong Armor'
+                Reward: 200
+                Lore:
+                - ''
+                - '&7 Become a fully iron armor.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '12':
+                Name: 'Friendly Support'
+                Reward: 100
+                Lore:
+                - ''
+                - '&7 Sponsor the same player 3 times.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '13':
+                Name: 'Undamaged'
+                Reward: 1000
+                Lore:
+                - ''
+                - '&7 Win games without damage.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '14':
+                Name: 'First Blood'
+                Reward: 50
+                Lore:
+                - ''
+                - '&7 Kill the first player in the game.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+            '15':
+                Name: 'Skeleton'
+                Reward: 50
+                Lore:
+                - ''
+                - '&7 Craft an arrow.'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+                - ''
+                - '{Status}'
+    Tiered:
+        Item: diamond block
+        Name: '&aTiered Achievements'
+        Slot: 24
+        Lore:
+        - ''
+        - '&7 Tiered achievements are'
+        - '&7 completed over multiple tiers.'
+        - ''
+        - '&7 Unlocked: {Unlock}/{Max} &8(&7%{Percent}&8)'
+        - ''
+        - '&e Click to view achievements!'
+        - ''
+        Contents:
+            '1':
+                Name: 'Katil I'
+                Reward: 300
+                Slot: 37
+                Required: 24
+                Lore:
+                - ''
+                - '&7 Kill 24 tributes.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '2':
+                Name: 'Katil II'
+                Reward: 400
+                Slot: 28
+                Required: 250
+                Lore:
+                - ''
+                - '&7 Kill 250 tributes.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '3':
+                Name: 'Katil III'
+                Reward: 800
+                Slot: 19
+                Required: 600
+                Lore:
+                - ''
+                - '&7 Kill 600 tributes.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '4':
+                Name: 'Katil IV'
+                Reward: 1000
+                Slot: 10
+                Required: 1200
+                Lore:
+                - ''
+                - '&7 Kill 1200 tributes.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '5':
+                Name: 'Katil V'
+                Reward: 2000
+                Slot: 1
+                Required: 2500
+                Lore:
+                - ''
+                - '&7 Kill 2500 tributes.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '6':
+                Name: 'Sandık I'
+                Reward: 30
+                Slot: 38
+                Required: 50
+                Lore:
+                - ''
+                - '&7 Open 50 chests.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '7':
+                Name: 'Sandık II'
+                Reward: 100
+                Slot: 29
+                Required: 250
+                Lore:
+                - ''
+                - '&7 Open 250 chests.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '8':
+                Name: 'Sandık III'
+                Reward: 250
+                Slot: 20
+                Required: 500
+                Lore:
+                - ''
+                - '&7 Open 500 chests.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '9':
+                Name: 'Sandık IV'
+                Reward: 500
+                Slot: 11
+                Required: 1500
+                Lore:
+                - ''
+                - '&7 Open 1500 chests.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '10':
+                Name: 'Sandık V'
+                Reward: 800
+                Slot: 2
+                Required: 3000
+                Lore:
+                - ''
+                - '&7 Open 3000 chests.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '11':
+                Name: 'Champion I'
+                Reward: 500
+                Slot: 39
+                Required: 15
+                Lore:
+                - ''
+                - '&7 Win the game 15 times.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '12':
+                Name: 'Champion II'
+                Reward: 1800
+                Slot: 30
+                Required: 100
+                Lore:
+                - ''
+                - '&7 Win the game 100 times.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '13':
+                Name: 'Champion III'
+                Reward: 2000
+                Slot: 21
+                Required: 250
+                Lore:
+                - ''
+                - '&7 Win the game 250 times.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '14':
+                Name: 'Champion IV'
+                Reward: 3000
+                Slot: 12
+                Required: 550
+                Lore:
+                - ''
+                - '&7 Win the game 550 times.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
+            '15':
+                Name: 'Champion V'
+                Reward: 6000
+                Slot: 3
+                Required: 1000
+                Lore:
+                - ''
+                - '&7 Win the game 1000 times.'
+                - ''
+                - '&7 Status: {Status}'
+                - ''
+                - '&7 Rewards:'
+                - '&6 + &e{Reward} &6Coin'
