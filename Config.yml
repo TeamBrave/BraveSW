@@ -995,3 +995,5 @@ Misc:
     DeathmatchRadius: 50
     PerArenaTablist: true
     MaxPartySize: 28
+    FireBallUpwardsPush: 2
+    FireBallPush: 1
