@@ -997,3 +997,4 @@ Misc:
     MaxPartySize: 28
     FireBallUpwardsPush: 2
     FireBallPush: 1
+    FireBallRadius: 4
