@@ -14,7 +14,7 @@ MySQL:
     UserName: root
     Password: password
     DataBase: mysql
-    TableName: BraveSG_
+    TableName: BraveSW_
     UseSSL: false
 
 Party:
@@ -983,13 +983,13 @@ BookStats:
     - '&3{Player}:'
     - '&7(SKY WARS)'
     - ''
-    - '&c{Kills} &0kişi öldürdü.'
-    - '&c{Deaths} &0kez öldü.'
-    - '&c{Coins} &0puan kazandı.'
-    - '&c{Wins} &0oyun kazandı.'
+    - '&c{Kills} &0kills.'
+    - '&c{Deaths} &0deaths.'
+    - '&c{Coins} &0coins.'
+    - '&c{Wins} &0wins.'
     - ''
-    - '&0Aylık &0&l{Players} &0kişi'
-    - '&0içinde &c{Ranking}. &0sırada.'
+    - '&0Ranked &c{Ranking} &0out of'
+    - '&0&l{Players} &0per month.'
 
 Misc:
     DeathmatchRadius: 50
@@ -998,3 +998,4 @@ Misc:
     FireBallUpwardsPush: 2
     FireBallPush: 1
     FireBallRadius: 4
+    TNTTime: 40

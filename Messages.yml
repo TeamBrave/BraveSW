@@ -13,7 +13,6 @@ Messages:
     - '&a/sw createArena &8(&7arena_name&8)'
     - '&a/sw editArena &8(&7arena_name&8)'
     - '&a/sw deleteArena &8(&7arena_name&8)'
-    - '&a/sw reload'
     - '&a/sw version'
     - '&a/sw join &8(&7arena_name&8)'
     - '&a/sw autojoin'
@@ -106,7 +105,9 @@ Messages:
         Quit: '&e{Player} &7has quit.'
         Kill: '&a{Player} &7was slain by &c{Attacker}&7.'
         Rank: '&e{Player}&7''s rank is &b#{Ranking} ({Rank})'
+        SpawnEntity: 'Entity has been spawned, use shift + left click to equip the item.'
         Health: '&e{Attacker} &7had &c{Health}&4❤ &7when killing you.'
+        ArrowDamage: '&e{Player} &7has &c{Health}&4❤ &7hearts left!'
         Living: '&eThere are &c{Players} &etributes living'
         Coin: '&6+{Coin} Coin &7(Kill)'
         Bounty: '&a+{Bounty} Bounty &7(Kill)'
@@ -123,16 +124,7 @@ Messages:
         Starting: '&7Starting to teleport players...'
         StartingGame: '&e{Seconds} &7seconds until the games begin.'
         StartGame: '&eThe game started, good luck!'
-        StartingDeathMatch: '&7There are &e{Seconds} &7seconds until deathmatch begin.'
-        StartDeathMatch: 
-        - ''
-        - '&eThe Deathmatch has begun&7.'
-        - ''
-        ReturnSpawn: '&4Please return to spawn.'
-        RandomDamage: '&7Players will start taking damage randomly.'
-        EndGame: '&7The game will end in &e{Seconds} &7seconds.'
         Restarting: '&7The game will be restarting in &e{Seconds} &7seconds.'
-        DropTime: '&7A supply drop will drop on the beacon at &e({Coord}) &7in 1 minute.'
         Refill:
         - ''
         - '&eChests have been refilled&7.'
@@ -182,7 +174,6 @@ Messages:
         Purchase: '&aPurchased &e{name} &atrail.'
         Select: '&aSelected &e{name} &atrail.'
     Party:
-        Prefix: '&7❒ &a&nParty &8➩ &7'
         Full: '&eThis party is full!'
         Join: '&7{player} &ehas joined.'
         Left: '&7{player} &ehas quit!'
@@ -200,8 +191,8 @@ Scoreboard:
         - '&fLevel: &e{Level}'
         - '{Progress}'
         - ''
-        - '&fWins: &e{Wins}'
-        - '&fKills: &e{Kills}'
+        - '&fWins: &e{Wins} {Season_Wins}' #{Wins} or {Season_Wins}
+        - '&fKills: &e{Kills} {Season_Kills}' #{Kills} or {Season_Kills}
         - '&fCoins: &e{Coins}'
         - '&fFavorite Map: &e{FavoriteMap}'
         - ''
