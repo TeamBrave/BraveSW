@@ -991,6 +991,12 @@ BookStats:
     - '&0Ranked &c{Ranking} &0out of'
     - '&0&l{Players} &0per month.'
 
+Tracker:
+    Enabled: true
+    Name: '&a&lPlayer Tracker'
+    None: '&f&lNearest Player: &bNone'
+    Found: '&f&lNearest Player: &b{Player} &f&lDistance: &b{Distance}'
+
 Misc:
     DeathmatchRadius: 50
     PerArenaTablist: true

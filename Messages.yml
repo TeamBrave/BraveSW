@@ -74,6 +74,9 @@ Messages:
         TakeCoin: '&7Taked &a{Coin} &7coins from &a{Player}&7.'
         CoinSet: '&7Setted &a{Player}&a''s &7coins to &a{Coin}&7.'
         CoinUsage: '&7/sw coins &cset/give/take &a[player] &a[number]'
+        Debug:
+            ArenaName: '&7You must specify an arena name.'
+            Debug: '&7Debug is running.'
     General:
         YouAreInGame: '&7You can''t change the lobby location while playing.'
         YouAreNotInGame: '&7You are not in game.'
